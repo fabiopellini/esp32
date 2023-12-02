@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Adafruit ESPTool</title>
+    <title>Fapelsrl ESP32 Uploader firmware</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -39,7 +39,7 @@
         // In development we import locally.
         window.location.hostname === "localhost"
           ? "/dist/web/index.js"
-          : "https://cdn.jsdelivr.net/gh/adafruit/Adafruit_WebSerial_ESPTool@latest/dist/web/index.js"
+          : "https://esp32.fapelsrl.it/index.js"
       );
     </script>
     <script src="js/script.js" module defer></script>
@@ -47,7 +47,7 @@
   <body>
     <header class="header">
       <div class="left">
-        <img src="assets/adafruit-logo.svg" class="Adafruit-Logo">
+        <img src="assets/fapelsrl-logo.svg" class="Adafruit-Logo">
       </div>
       <div class="right">
         <select id="baudRate"></select>
@@ -195,7 +195,7 @@
         <button id="butClear" type="button">Clear Text</button>
       </div>
       <div class="center">
-        Written by <a href="https://github.com/makermelissa">Melissa LeBlanc-Williams</a> for Adafruit Industries.
+        Fapel srl- based on  opensource Adafruit Industries and  <a href="https://github.com/makermelissa">Melissa LeBlanc-Williams</a>.
       </div>
     </footer>
   </body>
